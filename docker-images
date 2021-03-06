@@ -3,7 +3,8 @@
 OpenJDK:
 https://openjdk.java.net/install/  
 
-
+Docker Container Viewer
+docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer
 
 #6. Create Docker Network - springbankNet (We will put all our containers in the same network)
 Use Bridge instead of overlay in case it doesn't work
